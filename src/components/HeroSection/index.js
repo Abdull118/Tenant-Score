@@ -28,7 +28,7 @@ const HeroSection = () => {
             <HeroH1>Renting Made Easy</HeroH1>
             <HeroP>Sign Up today to receive your all-in-one Tenant Score.</HeroP>
             <HeroBtnWrapper>
-                <Button to ="signup" onMouseEnter = {onHover} onMouseLeave = {onHover} primary="true" dark="true">
+                <Button to ="/down" onMouseEnter = {onHover} onMouseLeave = {onHover} primary="true" dark="true">
                     Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>

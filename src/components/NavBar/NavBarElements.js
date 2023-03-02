@@ -11,12 +11,49 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  top:0;
+  top:35px;
   z-index:10;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    padding-top:15px
   }
+
+  @media screen and (max-width: 768px) {
+    top:57px;
+  }
+
+  @media screen and (max-width: 450px) {
+    top:102px;
+    background: black;
+  }
+`
+
+export const Header = styled.div`
+width: 100%;
+background:#000;
+color: #FFF;
+text-align: center;
+position: sticky;
+top:0;
+z-index:10;
+height: 35px;
+font-size: 20px;
+padding-top: 5px;
+
+@media screen and (max-width: 960px) {
+  height: 57px;
+ 
+}
+@media screen and (max-width: 768px) {
+  height: 60px;
+}
+
+@media screen and (max-width: 450px) {
+  height:103px;
+  padding-top: 3px;
+}
+
 `
 
 export const NavbarContainer = styled.div`

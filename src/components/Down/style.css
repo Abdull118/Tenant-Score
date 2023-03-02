@@ -1,0 +1,72 @@
+.logo {
+    margin-left: 32px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 32px;
+
+    @media screen and (max-width: 480px) {
+        margin-left: 16px;
+        margin-top: 8px;
+    }
+}
+
+
+
+.background {
+    background: linear-gradient(108deg,
+            rgba(1, 147, 86, 1) 0%,
+            rgba(10, 201, 122, 1) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.error {
+    background-color: #000;
+    border-radius: 100px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 1px 0 50px #000;
+}
+
+
+.uhOh {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uhOh img {
+    width: 50%;
+    object-fit: fill;
+}
+
+.oopsie {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: -70px;
+}
+
+.oopsie2 {
+    text-align: justify;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}

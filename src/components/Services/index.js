@@ -12,17 +12,17 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon src={Icon1}/>
                 <ServicesH2>Reduce Expenses</ServicesH2>
-                <ServicesP>We help reduce your fees and save you time!</ServicesP>
+                <ServicesP>Tired of paying all those fees? Tenant Score is a one and done deal!</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon2}/>
-                <ServicesH2>Virtual Offices</ServicesH2>
-                <ServicesP>Access our platform anywhere, anytime!</ServicesP>
+                <ServicesH2>Connecting Landlords & Tenants</ServicesH2>
+                <ServicesP>Renting has never been easier!</ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon3}/>
-                <ServicesH2>Premium Benefits</ServicesH2>
-                <ServicesP>Unlock our special membership to how to fix your Tenant Score.</ServicesP>
+                <ServicesH2>Increase Your Score</ServicesH2>
+                <ServicesP>Learn how you can improve your eligibility to rent your next home.</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
 

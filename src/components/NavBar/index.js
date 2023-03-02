@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { FaBars } from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from './NavBarElements'
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink, Header } from './NavBarElements'
 import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
@@ -25,7 +25,10 @@ const Navbar = ({ toggle }) => {
   return (
     <>
     <IconContext.Provider value={{ color: '#fff'}}>
-      <Nav scrollNav={scrollNav}>
+      <Header>
+          TenantScore is currently undergoing a makeover. Check back soon for exciting new features to make renting <strong><em>even</em></strong> easier!
+        </Header>
+        <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to='/' onClick={toggleHome}>Tenant Score</NavLogo>
           <MobileIcon onClick={toggle}>
@@ -54,7 +57,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/down'>Sign In</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
